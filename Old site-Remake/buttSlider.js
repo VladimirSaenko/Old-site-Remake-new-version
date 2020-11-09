@@ -1,9 +1,18 @@
 
-// "use strict";
+"use strict";
 
-// let tittle = document.getElementById('tittle');
-// let img = document.getElementById('image');
+function lifestyleText() {
+    document.getElementById('tittle').innerHTML = "Lifestyle";
+}
 
-// function lifestyle() {
-//    tittle.textContent = "sfs";
-// }
+function photodiaryText() {
+    document.getElementById('tittle').innerHTML = "Photodiary";
+}
+
+function musicText() {
+    document.getElementById('tittle').innerHTML = "Music";
+}
+
+function travelText() {
+    document.getElementById('tittle').innerHTML = "Travel";
+}

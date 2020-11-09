@@ -9,19 +9,14 @@ body {
     height: 100vh;
 }
 
-/* .background {
-    background: url("https://images.unsplash.com/photo-1509515837298-2c67a3933321?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80") center;
-    background-size: cover;  
-  }
-  
-h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 15vw;
-    mix-blend-mode: lighten;
-    color: #000;
-    background-color: #fff;
-} */
+input {
+    width: 315px;
+    cursor: pointer;
+    background: inherit;
+    outline: none;
+    border: none;
+    text-align: center;
+}
 
 .header {
     width: 100%;
@@ -100,9 +95,9 @@ h1 {
     text-align: center;
 }
 
-.buttslider-link {
+.buttslider-tittle {
     position: relative;
-    top: 10%;
+    top: 20%;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -110,7 +105,7 @@ h1 {
     font-size: 45px;
 }
 
-.buttslider-link:hover {
+.buttslider-tittle:hover {
     color: greenyellow;
     /* color: white; */
     text-shadow: black 5px 3px 3px;
