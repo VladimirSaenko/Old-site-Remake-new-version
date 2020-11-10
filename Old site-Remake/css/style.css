@@ -54,6 +54,7 @@ input {
 }
 
 .lorem-text {
+    visibility: hidden;
     cursor: default;
     text-align: center;
     font-weight: 800;
@@ -118,4 +119,11 @@ input {
 .buttslider-tittle {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
+}
+
+.call-tittle {
+    cursor: default;
+    text-shadow: white 1.5px 3px 0px;
+    font-size: 40px;
+    visibility: visible;     
 }
