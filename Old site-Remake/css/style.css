@@ -73,6 +73,7 @@ input {
 }
 
 .slide-img {
+    user-select: none;
     width: 575px;
 }
 
