@@ -61,18 +61,15 @@ input {
     visibility: hidden;
     cursor: default;
     text-align: center;
-    /* font-weight: 100; */
     /* color: black; */
     position: relative;
-    top: 35px;
-    font-size: 35px;
+    top: 20px;
+    font-size: 40px;
     width: 75%;
-    letter-spacing: 5px;
-    text-shadow: white -2px 5px 2px;
-    /* font-weight: 200; */
-    font-family: 'Do Hyeon', sans-serif;
+    letter-spacing: -0.5px;
+    text-shadow: white -2px  1.5px 1.5px;
+    font-family: 'Acme', sans-serif;
     user-select: none;
-
 }
 
 .slide-img {
