@@ -87,6 +87,7 @@ input {
     justify-content: space-around;
     background: rgba(213, 224, 245, 0.2);
     height: 125px;
+    user-select: none;
 }
 
 .buttslider-item {
@@ -97,12 +98,14 @@ input {
     border-radius: 25px;
     margin: 0 15px;
     text-align: center;
+    user-select: none;
 }
 
 .buttslider-tittle {
     position: relative;
     top: 20%;
     text-decoration: none;
+    user-select: none;
     color: black;
     font-weight: bold;
     text-shadow: white 5px 3px 1px;
@@ -119,6 +122,7 @@ input {
 
 .buttslider-item:nth-child(2) {
     width: 415px;
+    user-select: none;
 }
 
 .call-tittle {
@@ -130,10 +134,14 @@ input {
 }
 
 @media(max-width:600px) {
-
+    * {
+        user-select: none;
+    }
+    
     body {
         width: 275px;
         margin: auto;
+        user-select: none;
         /* padding: auto; */
     }
 
