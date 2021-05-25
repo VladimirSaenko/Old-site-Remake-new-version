@@ -6,7 +6,12 @@
 }
 
 body {
+    height: 100vh;
     background: linear-gradient(90deg, #43CBFF 35%, #9708CC 70%);
+}
+
+.container {
+    width: 100%;
     height: 100vh;
 }
 
@@ -49,7 +54,7 @@ input {
     position: relative;
     bottom: 45px;
     cursor: default;
-    font-size: 95px;
+    font-size: 1500px;
     text-transform: uppercase;
     font-family: 'Playfair Display', serif;
     text-shadow: white 5px 3px 1px;
@@ -115,8 +120,8 @@ input {
 }
 
 .buttslider-tittle:hover {
-    color: rgb(115, 32, 224);
-    /* color: white; */
+    color: white;
+    /* background: black; */
     text-shadow: black 5px 3px 3px;
 }
 
@@ -133,7 +138,7 @@ input {
     visibility: visible;
 }
 
-@media(max-width:600px) {
+@media screen and (min-width: 300px) and (max-width: 800px){
     * {
         user-select: none;
     }
